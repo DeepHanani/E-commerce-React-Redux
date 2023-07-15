@@ -1,0 +1,85 @@
+.cartContainer{
+    width: 800px;
+     display: flex;  
+    flex-direction: column;
+    margin: 0px auto 0px auto;
+}  
+
+ .miniContainer{
+    /* background-color: blueviolet; */
+    width: 700px;
+    height: 260px;
+    margin: 5px auto 2px auto;
+    padding: 15px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 5px 10px black;
+   
+ }  
+
+ .imgCointainer{
+    width: 300px;
+    height: 220px;    
+} 
+
+.productImg{
+    width: 100%; 
+    height: 100%;
+} 
+
+
+
+
+.BtnCointainer{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.incBtn{
+    padding: 4px 9px 5px 9px;
+    margin-right: 9px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.dicBtn{
+    padding: 4px 12px 5px 11px;
+    margin-left: 9px;
+    font-size: 20px;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.removeBtn{
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+h3{
+    margin: 50px 28px 0px 0px;
+}
+
+.backBtn{
+    float: left;
+    margin: 20px 0px 0px 20px;
+    padding: 8px 25px 8px 25px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
